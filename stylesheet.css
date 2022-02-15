@@ -1,0 +1,108 @@
+* {
+    margin: 0 auto;
+}
+
+html, body {
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+.banner {
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bridge-background {
+    position: absolute;
+}
+
+.nav {
+    position: absolute;
+    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.nav ul {
+    position: fixed;
+    height: 20px;
+    list-style: none;
+    margin: 0 auto; 
+    padding: 0;
+    width: 400px;
+    display: flex; 
+    }
+}
+
+.nav ul li {  
+    transition: background .5s; 
+}
+
+.nav ul li:hover {
+    opacity: .3;
+    cursor: pointer; 
+    transition: background .5s;
+}
+
+.nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.title {
+    background-image: url("./golden\ gate\ bridge.jpg" );
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.name {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+}
+
+.social {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+.icons li a {
+    color: black;
+}
+.icons li a:hover {
+    color:rgb(167, 159, 159);
+    opacity: .9;
+}
+
+.prof-pic {
+    max-width: 10px;
+    max-height 10px;
+}
+
+.about-me {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: block;
+    margin: 0 auto;
+  width: 50%;
+}

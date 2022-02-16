@@ -95,7 +95,7 @@ li a:hover {
 .about-me {
     padding-top: 50px;
     padding-bottom: 100px;
-    display: block;
+    display: flex;
     margin: 0 auto;
     /*width: 70%; */
     background-color: #ebeeee;
@@ -108,17 +108,15 @@ li a:hover {
     border-radius: 50%;
     object-fit: cover;
     padding-bottom: 20px;
+    padding-right: 20px;
     float: left;
 }
 .about-me p {
-    width: 700px;
+    width: 800px;
     display: inline-block;
     text-align: justify;
 }
 .about-me h3,h1 {
-    text-align: center;
-}
-.about-me h1 {
     text-align: center;
 }
 .footer-nav {
@@ -133,31 +131,54 @@ li a:hover {
     font-size: 1.6em;
 }
 .projects {
-    display: flex;
-    flex-wrap: wrap;
     background-color: blue;
-}
-.projects ul {
-    padding-top: 2em;
-    padding-bottom: 3em;
-}
-.projects ul li {
-    height: 400px;
-    width: 700px;
-    list-style-type: none;
-    display: flex;
 
-}#project1 {
+}
+.projects h1 {
+    font-size: 2em;
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    background-color: green;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px;
+    height: 800px;
+}
+.container div {
+    width: 250px;
+    height: 250px;
+    background-size: 100% 100%;
+    background-position: center;
+    
+}
+
+#project1 {
     background-image: url("berkeleyhaas.jpg" );
-    background-size: cover;
 }
 #project2 {
     background-image: url("pwc.jpg" );
-    background-size: cover;
 }
 #project3 {
     background-image: url("uiux.jpg" );
-    background-size: cover;
+}
+#project4 {
+    background-image: url("valorant.jpg" );
+}
+#project5 {
+    background-image: url("overwatch.jpg" );
+}
+#project6 {
+    background-image: url("lol.jpg" );
+}
+#project7 {
+    background-image: url("tesla.jpg" );
+}
+#project8 {
+    background-image: url("apple.jpg" );
 }
 
 

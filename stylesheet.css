@@ -10,15 +10,9 @@ html, body {
     background-color: white;
     color: black;
 }
-
-.banner {
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.bridge-background {
-    position: absolute;
+.flex-container {
+    display: flex;
+    justify-content: center;
 }
 
 .nav {
@@ -89,14 +83,9 @@ html, body {
 .icons li a {
     color: black;
 }
-.icons li a:hover {
-    color:rgb(167, 159, 159);
+li a:hover {
+    color:rgb(181, 173, 173);
     opacity: .9;
-}
-
-.prof-pic {
-    max-width: 10px;
-    max-height 10px;
 }
 
 .about-me {
@@ -104,5 +93,30 @@ html, body {
     padding-bottom: 100px;
     display: block;
     margin: 0 auto;
-  width: 50%;
+    width: 50%;
 }
+.prof-pic {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0px, 100px;
+    padding-bottom: 20px;
+}
+.about-me p {
+    display: inline-block;
+    width: 700px;
+}
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    
+}
+.footer-nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.6em;
+}
+

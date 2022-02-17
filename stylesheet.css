@@ -120,7 +120,7 @@ li a:hover {
     text-align: center;
 }
 .about-me h1 {
-    font-size: 2em;
+    font-size: 2rem;
 }
 .footer-nav {
     display: flex;
@@ -134,13 +134,13 @@ li a:hover {
     font-size: 1.6em;
 }
 .projects h3 {
-    font-size: 2em;
+    font-size: 1.6em;
     padding-top: 60px;
     text-align: center;
 }
 .projects h1 {
     padding-bottom: 50px;
-    font-size: 3.2em;
+    font-size: 2rem;
 }
 
 .container {
@@ -200,11 +200,24 @@ li a:hover {
     width: 60%;
     height: 100px;
     flex-grow:1;
+    padding-top: 50px;
+}
+.footer-nav li a {
+    color: #727878;
 }
 .contact h3 {
     padding-top: 60px;
-    font-size: 2em;
     text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.contact h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+footer-nav li a {
+    font: arial;
 }
 
 

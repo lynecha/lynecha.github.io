@@ -4,6 +4,7 @@
 
 html, body {
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
     height: 100%;
     width: 100%;
     text-align: left;
@@ -23,6 +24,7 @@ html, body {
     justify-content: center;
     left: 50%;
     transform: translate(-50%, 0);
+    
 }
 
 .nav ul {
@@ -33,12 +35,14 @@ html, body {
     padding: 0;
     width: 400px;
     display: flex;
+    gap: 10px;
     
     }
 }
 
 .nav ul li {  
     transition: background .5s;
+    
 }
 
 .nav ul li:hover {
@@ -99,7 +103,7 @@ li a:hover {
     margin: 0 auto;
     /*width: 70%; */
     background-color: #ebeeee;
-    font-size: 1.6em;
+    font-size: 2rem;
 }
 .prof-pic {
     display: inline-block;
@@ -120,7 +124,8 @@ li a:hover {
     text-align: center;
 }
 .about-me h1 {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    padding-top: 10px;
 }
 .footer-nav {
     display: flex;
@@ -134,13 +139,13 @@ li a:hover {
     font-size: 1.6em;
 }
 .projects h3 {
-    font-size: 1.6em;
+    font-size: 2rem;
     padding-top: 60px;
     text-align: center;
 }
 .projects h1 {
     padding-bottom: 50px;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 .container {
@@ -215,9 +220,6 @@ li a:hover {
 .contact h1 {
     font-size: 2rem;
     text-align: center;
-}
-footer-nav li a {
-    font: arial;
 }
 
 

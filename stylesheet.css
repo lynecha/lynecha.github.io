@@ -124,7 +124,7 @@ li a:hover {
     text-align: center;
 }
 .about-me h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-top: 10px;
 }
 .footer-nav {
@@ -145,7 +145,7 @@ li a:hover {
 }
 .projects h1 {
     padding-bottom: 50px;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 .container {
@@ -214,7 +214,7 @@ li a:hover {
     padding-top: 60px;
     text-align: center;
     padding-bottom: 10px;
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
 }
 .contact h1 {

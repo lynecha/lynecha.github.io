@@ -119,6 +119,9 @@ li a:hover {
 .about-me h3,h1 {
     text-align: center;
 }
+.about-me h1 {
+    font-size: 2em;
+}
 .footer-nav {
     display: flex;
     flex-direction: row;
@@ -134,8 +137,14 @@ li a:hover {
     /* background-color: blue; */
 
 }
+.projects h3 {
+    font-size: 1.6em;
+    padding-top: 70px;
+    text-align: center;
+}
 .projects h1 {
-    font-size: 2em;
+    padding-bottom: 50px;
+    font-size: 3.2em;
 }
 
 .container {

@@ -138,25 +138,29 @@ li a:hover {
 }
 .projects h3 {
     font-size: 2rem;
-    padding-top: 60px;
+    padding-top: 50px;
     text-align: center;
 }
 .projects h1 {
     font-size: 2rem;
+    padding-bottom: 60px;
 }
 
 .container {
-    display: flex;
+    display: grid;
     width: 60%;
      /* background-color: green; */
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    flex-direction: row;
+    /* flex-wrap: wrap; */
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr));
+    row-gap: 150px;
+    padding-bottom: 8%;
+    /* justify-content: space-evenly;
+    flex-direction: row; */
     /* padding: 10px; */
     /* padding-bottom: 150px; */
-    align-content: space-around;
-    height: 800px;
-    overflow: auto;
+    /* align-content: space-around; */
+    /* height: 800px;
+    overflow: auto; */
     
 
 }

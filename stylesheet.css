@@ -154,7 +154,8 @@ li a:hover {
     justify-content: space-evenly;
     flex-direction: row;
     padding: 10px;
-    height: 800px;
+    padding-bottom: 150px;
+
 }
 .container div {
     width: 250px;
@@ -207,6 +208,7 @@ li a:hover {
 }
 .footer-nav li a {
     color: #727878;
+    flex-grow: 1;
 }
 .contact h3 {
     padding-top: 60px;

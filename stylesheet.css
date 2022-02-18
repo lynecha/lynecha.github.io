@@ -142,19 +142,22 @@ li a:hover {
     text-align: center;
 }
 .projects h1 {
-    padding-bottom: 50px;
     font-size: 2rem;
 }
 
 .container {
     display: flex;
     width: 60%;
-    /* background-color: green; */
+     /* background-color: green; */
     flex-wrap: wrap;
     justify-content: space-evenly;
     flex-direction: row;
-    padding: 10px;
-    padding-bottom: 150px;
+    /* padding: 10px; */
+    /* padding-bottom: 150px; */
+    align-content: space-around;
+    height: 800px;
+    overflow: auto;
+    
 
 }
 .container div {
@@ -162,6 +165,8 @@ li a:hover {
     height: 250px;
     background-size: 100% 100%;
     background-position: center;
+    
+    
     
 }
 .container div:hover {
@@ -201,6 +206,7 @@ li a:hover {
 
 .footer-nav {
     display: flex;
+    flex-wrap: wrap;
     width: 60%;
     height: 100px;
     flex-grow:1;
@@ -208,7 +214,9 @@ li a:hover {
 }
 .footer-nav li a {
     color: #727878;
-    flex-grow: 1;
+    flex-grow:1;
+    flex-basis: auto;
+    font-size: 1vw;
 }
 .contact h3 {
     padding-top: 60px;
